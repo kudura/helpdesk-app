@@ -33,8 +33,8 @@ A full-stack demo application for a Claude Code workshop — ticket management, 
 Backend:
 ```bash
 cd server
-uv venv && uv sync
-uv run python main.py
+pip install -r requirements.txt
+python main.py
 ```
 
 Frontend:
